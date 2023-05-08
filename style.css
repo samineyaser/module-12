@@ -1,0 +1,65 @@
+* {
+  outline: 0;
+}
+body {
+  background-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  background-image: url("https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  max-width: 400px;
+  color: #000000;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+}
+
+button {
+  display: block;
+  padding: 10px;
+  margin: 20px 0 0;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d8bf2;
+}
+
+#result {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
